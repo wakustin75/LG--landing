@@ -1,2 +1,2 @@
-# LG--landing
+# lg--landing
 LG landing page
