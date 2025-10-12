@@ -1,49 +1,36 @@
+/* Page base */
 body {
-  font-family: Arial, sans-serif;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   background: linear-gradient(180deg, #e6f4e6, #ffffff);
   color: #222;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
+/* Card container */
 .container {
-  max-width: 600px;
-  margin: 60px auto;
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 640px;
+  margin: 56px auto;
+  background: #fff;
+  padding: 28px 24px;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.08);
+  text-align: center;
 }
 
-h1 {
-  color: #009900;
-}
+h1 { color: #0a8a0a; margin: 0 0 8px; }
+p  { margin: 0 0 16px; }
 
-input, button {
-  width: 90%;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  background-color: #009900;
-  color: white;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #00b300;
-}
-
-a {
+.primary-link {
   display: inline-block;
-  margin-top: 15px;
-  color: #009900;
+  margin-top: 14px;
+  color: #0a8a0a;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
+}
+.primary-link:hover { text-decoration: underline; }
+
+/* Optional: tighten Brevo form spacing on small screens */
+@media (max-width: 420px) {
+  .container { margin: 24px 12px; padding: 20px 16px; }
 }
