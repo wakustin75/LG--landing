@@ -1,13 +1,11 @@
-/* Page base */
 body {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   background: linear-gradient(180deg, #e6f4e6, #ffffff);
   color: #222;
   margin: 0;
   padding: 0;
 }
 
-/* Card container */
 .container {
   max-width: 640px;
   margin: 56px auto;
@@ -18,8 +16,14 @@ body {
   text-align: center;
 }
 
-h1 { color: #0a8a0a; margin: 0 0 8px; }
-p  { margin: 0 0 16px; }
+h1 {
+  color: #0a8a0a;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0 0 16px;
+}
 
 .primary-link {
   display: inline-block;
@@ -28,9 +32,13 @@ p  { margin: 0 0 16px; }
   text-decoration: none;
   font-weight: 700;
 }
-.primary-link:hover { text-decoration: underline; }
+.primary-link:hover {
+  text-decoration: underline;
+}
 
-/* Optional: tighten Brevo form spacing on small screens */
 @media (max-width: 420px) {
-  .container { margin: 24px 12px; padding: 20px 16px; }
+  .container {
+    margin: 24px 12px;
+    padding: 20px 16px;
+  }
 }
